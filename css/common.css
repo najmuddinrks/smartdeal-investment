@@ -172,7 +172,7 @@ h5{ font-family:var(--lato-black) ;}
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family:var(--lato-regular);
+    font-family:var(--lato-regular)!important;
 }
 ul li {
     list-style: none;
@@ -182,12 +182,14 @@ a{
     outline: none;
 }
 html{
+    font-family: var(--lato-regular) !important;
     font-size: 62.5%;
     box-sizing: border-box;
     width: 100%;
     height: auto;
 }
 body{
+    font-family: var(--lato-regular) !important;
     line-height: 1.2;
     letter-spacing: 1.1;
     width: 100% !important;
