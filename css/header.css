@@ -148,7 +148,7 @@
    top: 56px;
    left: 60%;
    z-index: 4;
-   background:url("../IMAGES/logo/top-header.jpg");
+   background:url("../img/logo/main-head2.png") no-repeat;
    background-size: 100% 100%;
    border-radius: 18px;
    width: 100%;
