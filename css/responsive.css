@@ -1,3 +1,15 @@
+@media(max-width:1200px){
+    .back-video{
+        width: 100% !important;
+        padding-top: 100px;
+    }
+    .gradient h2{
+        font-size: var(--font-size15);
+    }
+    .overlay2{
+        width: 100%;
+    }
+}
 @media(max-width:1199px){
     body{
         width: 100% !important;
