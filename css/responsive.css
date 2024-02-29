@@ -1,27 +1,37 @@
 @media(max-width:1200px){
+    html , body , main , header , footer figure , article , aside , nav , section{
+        font-family: var(--lato-regular);
+    }
+       p{ font-family:var(--lato-regular) ;}
+    span{ font-family:var(--lato-span) ;}
+    strong{ font-family:var(--lato-Bold);}
+    a{font-family:var(--lato-Bold) ;}
+    h1{ font-family:var(--roboto-black);}
+    h2{ font-family:var(--lato-black) ;}
+    h4{ font-family:var(--lato-black) ;}
+    h5{ font-family:var(--lato-black) ;}
     .back-video{
         width: 100% !important;
-        padding-top: 100px;
+        padding-top: 50px;
     }
     .gradient h2{
         font-size: var(--font-size15);
     }
     .overlay2{
         width: 100%;
-        height: 75%;
+        height:148%;
     }
 }
 @media(max-width:1199px){
     body{
         width: 100% !important;
-        height: 60%;
+        /* height: 60%; */
     }
-    .bottom-header-section .container .wrapper .menset .menu-main .menu-full-width{
-        display: none;
-    }
+    .bottom-header-section .container .wrapper .menset .menu-main .menu-full-width,
     .bottom-header-section .container .wrapper .menset .menu-main .menu-full-width-home{
         display: none;
     }
+ 
     .checkbox__custom__oriented{
         margin-right: 3px;
     }
@@ -110,7 +120,7 @@
     }
     /* **********************badge ui icon font awesome END Here...**************** */
     .gradient h2 {
-        font-size: var(--font-size14);
+        font-size: var(--font-size13);
     }
      .load{
         background:var(--para-shade-op);
@@ -158,7 +168,7 @@
     /* justify-content: space-between; */
     align-items: center;
     transition:0.5s ease-in-out;
-    padding: 7px 10px;
+    padding: 6px 10px;
     font-size: var(--font-size16);
     line-height: 0.8;
     width: 100%;
@@ -327,13 +337,13 @@ transition: 0.5s ease-in-out;
 .mega__link:last-child:after{
     display: none;
 }
-
+/* 
 .search__bar .back-video{
     display: none;
 }
 .resp__search__bar{
     display: block;
-}
+} */
 .resp__search__bar .banner__video{
     width: 100% !important;
 	min-height: 440px;
@@ -352,8 +362,7 @@ main{
     position: absolute;
     top: 30px;
     left: 0;
-    background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
-    background-size: 3px 3px;
+    background: var(--backdark);
     z-index: 2;
   }
   .overlay2{
@@ -562,9 +571,9 @@ main{
     .overlay{
         min-height: 113%;
     }
-    body{
+    /* body{
         height: 54%;
-    }
+    } */
 
     
 }
@@ -676,9 +685,9 @@ main{
        .input__search__circle{
         top: -41%;
        }
-       body {
+       /* body {
         height: 43%;
-    }
+    } */
     .overlay {
         min-height: 145%;
     }
