@@ -61,7 +61,7 @@
 .top-header-section .container .wrapper .top-header-left .logo{
    display: block;
    transition:0.5s ease-in-out;
-   padding-left: 12px;
+   /* padding-left: 12px; */
 }
 .top-header-section .container .wrapper .top-header-left .logo a img{
    max-width: 222PX;

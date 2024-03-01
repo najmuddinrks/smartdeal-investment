@@ -195,7 +195,7 @@ body{
     width: 100% !important;
     height: 100vh;
     background: var(--body-color) !important;
-    position: relative;
+    /* position: relative; */
     overflow-x: hidden !important;
 }
 
@@ -1675,12 +1675,13 @@ font-size: var(--font-size16);
 }
 
 .magicsearch {
-    border: 2px solid var(--temp-head-line);
+    border: 1px solid var(--temp-head-line);
     width: 250px;
     height: 40px;;
     border-radius: 11px;
     outline: none;
-    color: var(--dark-blue-op);
+    color: var(--pure-white);
+    /* color: var(--dark-blue-op); */
     background-color: transparent;
     transition: all .5s cubic-bezier(.19,1,.5,1);
     padding: 5px 10px;
@@ -1694,8 +1695,10 @@ font-size: var(--font-size16);
     font-size: var(--font-size15);
 }
 .magicsearch:focus {
-    background-color: var(--softpink);
-    color: var(--dark-blue-op);
+    background: var(--checked);
+    color: var(--pure-white);
+    /* background-color: var(--softpink); */
+    /* color: var(--dark-blue-op); */
 }
 .border-right-input-searching{
     border-right: 1px solid red;
@@ -1716,7 +1719,8 @@ font-size: var(--font-size16);
     width: 120px;
     height: 40px;
     outline: none;
-    color: var(--dark-blue-op);
+    /* color: var(--dark-blue-op); */
+    color: var(--pure-white);
     background-color: transparent;
     transition: all .5s cubic-bezier(.19,1,.5,1);
     padding: 4px;
@@ -1734,7 +1738,8 @@ font-size: var(--font-size16);
     width: 200px;
     height: 40px;
     outline: none;
-    color: var(--dark-blue-op);
+    color: var(--pure-white);
+    /* color: var(--dark-blue-op); */
     background-color: transparent;
     transition: all .5s cubic-bezier(.19,1,.5,1);
     /* padding: 4px; */
