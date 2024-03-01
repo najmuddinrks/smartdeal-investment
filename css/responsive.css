@@ -25,6 +25,9 @@
         width: 100% !important;
         height: 60%;
     }
+    .resp__search__bar{
+        display: block;
+      }
     .search__bar{
         display: none !important;
     }
