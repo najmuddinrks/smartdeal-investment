@@ -13,9 +13,12 @@
     .search__bar{
         display: none !important;
     }
-    /* .resp__search__bar{
+    .resp__search__bar{
         display: block;
-    } */
+    }
+    .bottomline__search__input__box{
+        display: block;
+    }
 }
 @media(max-width:1199px){
     body{
