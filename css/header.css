@@ -61,7 +61,7 @@
 .top-header-section .container .wrapper .top-header-left .logo{
    display: block;
    transition:0.5s ease-in-out;
-   /* padding-left: 12px; */
+   padding-left: 12px;
 }
 .top-header-section .container .wrapper .top-header-left .logo a img{
    max-width: 222PX;
@@ -511,7 +511,7 @@ transition: 0.5s ease-in-out;
   line-height: 2;
 }
 .center__div ul li a{
-font-size: var(--font-size22);
+font-size: var(--font-size16);
 text-decoration: none;
 color: var(--li-color);
 padding-bottom: 2px;
@@ -558,9 +558,9 @@ transition: 0.5s ease-in-out;
 .font_adjust{
   flex-direction: row-reverse;
   justify-content: flex-end;
-  gap: 0px 20px;
+  gap: 0px 20px !important;
   margin-top: 20px;
-  font-size: var(--font-size29);
+  font-size: var(--font-size16) !important;
 }
 .badge__head{
   top: 68% !important;

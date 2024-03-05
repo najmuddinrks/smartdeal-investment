@@ -1281,13 +1281,16 @@
    <main>
      <!-- ****************search__properties modification********************** -->
      <section class="search__bar mb-5">
+ <!-- Lazy loading for videos -->
       <video autoplay muted loop playsinline class="back-video" poster="img/banner/dubai__proj.jpg">
-        <source src="img/banner/dubai__proj.mp4" type="video/mp4">
-        <source src="img/banner/dubai__proj.webm" type="video/webm">
-       </video>
+      <source src="img/banner/dubai__proj.mp4" type="video/mp4">
+      <source src="img/banner/dubai__proj.webm" type="video/webm">
+        <!-- Your browser does not support the video tag. -->
+     </video>
+
    <div class="overlay2"></div>
       <div class="container">
-        <div class="row wrapper wrapped">
+        <div class="row wrapper wrapped">      
           <div class="col-xl-11 d-xl-block col-lg-12 d-lg-none d-md-none m-auto p-0">
             <div class="main__banner__filter__section__smartdeal d-flex flex-column">
               <div class="main__heading__smartdeal__sec text-center">
@@ -1308,15 +1311,7 @@
                 <div class="recent__search d-flex align-items-center">
                     <div class="searching__city border-right-input-searching">
                       <i class="fa fa-location-dot font-predict fa-1x pt-2 pr-2"></i>
-                      <input class="magicsearch " id="basic" placeholder="add more city for best serach...">
-                       <!-- <div class="dropBoxOPenNew">
-                        <strong>Recent Search</strong>
-                        <ul class="three-grid-template-column">
-                          <li class="checklist"><h6>Buy in Mumbai</h6><p>Flat</p></li>
-                          <li class="checklist"><h6>Buy in Mumbai</h6><p class="white-space">2 BHK Flat, House/Villa Above ₹5 L</p></li>
-                          <li class="checklist"><h6>Buy in Mumbai</h6><p class="white-space">Flat, House/Villa, Plot</p></li>
-                        </ul>
-                       </div> -->
+                      <input class="magicsearch " id="basic" placeholder="add more city for best serach...">           
                     </div>
                     <div class="flat__bottom border-right-input-searching">     
                     <div class="flat__perspective d-flex justify-content-around align-items-center">
@@ -1439,8 +1434,7 @@
                                      <input type="checkbox" value="1" class="white-space"><span>Farm House</span>
                                   </label>
                                </div>
-                                 </div>
-                                
+                                 </div>                            
                               </div>
                              </dd>
                            </li>                          
@@ -1503,7 +1497,7 @@
             <h2>oferring best & sustainable residences with experties in prosperous living</h2>
           </div>
           </div>
-          </div>      
+          </div>
         </div>
       </div>
    </section>
@@ -1512,11 +1506,11 @@
     <video autoplay muted loop playsinline class="banner__video" poster="img/banner/dubai__proj.jpg">
       <source src="img/banner/dubai__proj.mp4" type="video/mp4" class="video__length">
       <source src="img/banner/dubai__proj.webm" type="video/webm" class="video__length">
+      </video>
         <!-- Your browser does not support the video tag. -->
   <div class="overlay"></div>
     <div class="container"> 
         <div class="row wrapper">
-        
             <div class="main__banner__sect__resp__input__field__search__box d-flex flex-column">
                 <div class="resp___section__heading">
                     <h2>Welcome! Let’s continue Your search</h2>
@@ -1539,11 +1533,11 @@
                             <i class="fa fa-search search__bar__setting fa-1x"></i>
                         </div>
                     </div>
-               
-                </div>
-                
-            </div>
-            
+                    </div>   
+                    <div class="another__packages">
+                      <h2>oferring best & sustainable residences with experties in prosperous living</h2>
+                    </div>            
+            </div>          
         </div>
     </div>
 </section>
@@ -1553,7 +1547,7 @@
       <div class="container">
         <h2 class="h2-set">Because you searched Mumbai</h2>
         <div class="wrapper row">
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 d-block margin-bottom">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-block margin-bottom">
             <div class="card h-featured2 back__card">
               <div class="card-body gradient justify-content-start">
                 <div class="card-content ">
@@ -1569,7 +1563,7 @@
               </div>            
             </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 d-block margin-bottom">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-block margin-bottom">
               <div class="card h-featured2 back__card">
                 <div class="card-body gradient justify-content-start">
                   <div class="card-content "> 
@@ -1585,7 +1579,7 @@
                 </div>            
               </div>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 d-block margin-bottom">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-block margin-bottom">
                 <div class="card h-featured2 back__card">
                   <div class="card-body gradient justify-content-start">
                     <div class="card-content ">                 
@@ -1601,7 +1595,7 @@
                   </div>            
                 </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 d-block margin-bottom">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-block margin-bottom">
                   <div class="card h-featured2 back__card">
                     <div class="card-body gradient justify-content-start">
                       <div class="card-content ">               
@@ -2044,7 +2038,7 @@
       <div class="container">
         <h2 class="h2-set">Diverse Mumbai Properties - Find Your Perfect Home with Us</h2>
         <div class="wrapper row">
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 d-block margin-bottom">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-block margin-bottom">
             <div class="card h-featured2">
               <figure class="fig-img mb-0">
                 <img src="./img/card/prop-everyone/owner-property.jpg" alt="owner-pro">
@@ -2060,7 +2054,7 @@
               </figure>
             </div> 
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 d-block margin-bottom">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-block margin-bottom">
               <div class="card h-featured2">
                 <figure class="fig-img mb-0">
                   <img src="./img/card/prop-everyone/new-projects.jpg" alt="latest-proj">
@@ -2076,7 +2070,7 @@
                 </figure>
               </div> 
               </div>   
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 d-block margin-bottom">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-block margin-bottom">
                 <div class="card h-featured2">
                   <figure class="fig-img mb-0">
                     <img src="./img/card/prop-everyone/ready-to-move-in.jpg" alt="ready2movein">
@@ -2092,7 +2086,7 @@
                   </figure>
                 </div> 
                 </div>   
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 d-block margin-bottom">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-block margin-bottom">
                   <div class="card h-featured2">
                     <figure class="fig-img mb-0">
                       <img src="./img/card/prop-everyone/budget-homes.jpg" alt="budget__homes">
@@ -3847,14 +3841,14 @@
         <div class="container">
           <h2 class="h2-set">Property Services</h2>
           <div class="wrapper row justify-content-start slider__resp">
-            <div class="offset-xl-0 col-xl-3 offset-lg-0 col-lg-3 col-md-4 col-sm-12 col-12 d-block">
+            <div class="offset-xl-0 col-xl-3 offset-lg-0 col-lg-3 col-md-4 col-sm-6 col-12 d-block">
               <div class="card card__block3 margin-bottom">
                 <figure>
                   <img class="card-img-top img-fluid" src="img/card/property__service/pack.jpg" alt="packers">
                 </figure>
                 <div class="card-body p-0">
                   <div class="card-content pb-0">
-                    <div class="card__block__element card__segment">
+                    <div class="card__block__element card__segment ">
                       <strong class="p-0">Packers & Movers</strong>
                       <p>Budget-Friendly Home and Vehicle Shifting Guaranteed Lowest Prices</p> 
                     </div>     
@@ -3862,7 +3856,7 @@
                 </div>
               </div>
             </div>
-            <div class="offset-xl-0 col-xl-3 offset-lg-0 col-lg-3 col-md-4 col-sm-12 col-12 d-block">
+            <div class="offset-xl-0 col-xl-3 offset-lg-0 col-lg-3 col-md-4 col-sm-6 col-12 d-block">
               <div class="card card__block3 margin-bottom">
                 <figure>
                   <img class="card-img-top img-fluid" src="img/card/property__service/home__loans.jpg" alt="home-loans">
@@ -3878,8 +3872,8 @@
                 </div>
               </div>
             </div>
-            <div class="offset-xl-0 col-xl-3 offset-lg-0 col-lg-3 col-md-4 col-sm-12 col-12 d-block">
-              <div class="card card__block3 margin-bottom">
+            <div class="offset-xl-0 col-xl-3 offset-lg-0 col-lg-3 col-md-4 col-sm-6 col-12 d-block m-auto">
+              <div class="card card__block3 pb-lg-3 margin-bottom">
                 <figure>
                   <img class="card-img-top img-fluid" src="img/card/property__service/home-interiors.jpg" alt="home-interiors">
                 </figure>
@@ -5252,7 +5246,7 @@
                 </div>
               </div>   
               </div>
-              <div class="card-footer pb-0">
+              <div class="card-footer padding-bottom">
                 <ul class="mb-0 d-flex justify-content-between align-items-center">
                   <li><a href="javasript:void">see all <i class="fas fa-arrow-right pl-lg-2"></i></a></li><button class="btn button2">explore services</button></ul>
               </div>
@@ -5853,25 +5847,25 @@
             <div class="contentSection3">
               <div class="content" data-number="1">
                 <ul class="four-grid-template-column con-ul">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Windsor Grande Residences</a></li>
                   <li><a href="javascript:void">Rose Villa</a></li>
                   <li><a href="javascript:void">Millionaire Heritage</a></li>
                   <li><a href="javascript:void">Evershine Cosmic</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Transcon Triumph</a></li>
                   <li><a href="javascript:void">Rustomjee Elements</a></li>
                   <li><a href="javascript:void">Empire Tower</a></li>
                   <li><a href="javascript:void">DLH Mamta</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Oberoi Springs</a></li>
                   <li><a href="javascript:void">Pearl Residency</a></li>
                   <li><a href="javascript:void">Raheja Classique</a></li>
                   <li><a href="javascript:void">Tarapore Towers</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Runwal Elegante</a></li>
                   <li><a href="javascript:void">Ocean View</a></li>
                   <li><a href="javascript:void">Green Tower</a></li>
@@ -5881,25 +5875,25 @@
               </div>
               <div class="content" data-number="2">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Royal Palms</a></li>
                   <li><a href="javascript:void">Gokul Dham</a></li>
                   <li><a href="javascript:void">Romell Aether</a></li>
                   <li><a href="javascript:void">Omkar Ananta</a></li>
                 </div>
-                <div class="mega-menu"> 
+                <div class="mega-menu bg-transparent"> 
                   <li><a href="javascript:void">Sky Villa</a></li>
                   <li><a href="javascript:void">Oberoi Woods</a></li>
                   <li><a href="javascript:void">Bimbisar Nagar</a></li>
                   <li><a href="javascript:void">Oberoi Garden City</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Lodha Fiorenza</a></li>
                   <li><a href="javascript:void">Oberoi Exquisite</a></li>
                   <li><a href="javascript:void">Aquaria Grande</a></li>
                   <li><a href="javascript:void">Mantri Park</a></li>
                 </div>
-                  <div class="mega-menu"> 
+                  <div class="mega-menu bg-transparent"> 
                   <li><a href="javascript:void">Oberoi Esquire</a></li>
                   <li><a href="javascript:void">DB Woods</a></li>
                   <li><a href="javascript:void">Raheja Ridgewood</a></li>
@@ -5909,25 +5903,25 @@
               </div>
               <div class="content" data-number="3">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Runwal Elina</a></li>
                   <li><a href="javascript:void">Lodha Eternis</a></li>
                   <li><a href="javascript:void">10 Square</a></li>
                   <li><a href="javascript:void">Sankalp Apartment</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Vasant Oasis</a></li>
                   <li><a href="javascript:void">Kanakia Sevens</a></li>
                   <li><a href="javascript:void">Akruti Orchid Park</a></li>
                   <li><a href="javascript:void">Hubtown Sunmist</a></li>   
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Kanakia Rainforest</a></li>
                   <li><a href="javascript:void">Ashok tower</a></li>
                   <li><a href="javascript:void">Sher E Punjab Andheri East</a></li>
                   <li><a href="javascript:void">Anjali Apartment</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Oberoi Splendor</a></li>
                   <li><a href="javascript:void">Rosa Alba</a></li>
                   <li><a href="javascript:void">Vishal Apartment</a></li>
@@ -5937,25 +5931,25 @@
               </div>
               <div class="content" data-number="4">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Highland Park</a></li>
                   <li><a href="javascript:void">Nirmal Lifestyle</a></li>
                   <li><a href="javascript:void">Dwarka Apartment</a></li>
                   <li><a href="javascript:void">Raheja Garden</a></li>         
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Runwal Greens</a></li>
                   <li><a href="javascript:void">Wadhwa Atmosphere</a></li>
                   <li><a href="javascript:void">Ashford Royale</a></li>
                   <li><a href="javascript:void">Yogi Hills</a></li>       
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Sheth Montana</a></li>
                   <li><a href="javascript:void">Runwal Sanctuary</a></li>
                   <li><a href="javascript:void">Runwal Pinnacle</a></li>
                   <li><a href="javascript:void">Silver Birch</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Piramal Revanta</a></li>
                   <li><a href="javascript:void">Runwal Anthurium</a></li>
                   <li><a href="javascript:void">Tirumala Habitats</a></li>
@@ -5965,25 +5959,25 @@
               </div>
               <div class="content" data-number="5">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Omkar 1973</a></li>
                   <li><a href="javascript:void">Ahuja Towers</a></li>
                   <li><a href="javascript:void">Lodha The Park</a></li>
                   <li><a href="javascript:void">Sugee Marina Bay</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Palais Royale</a></li>
                   <li><a href="javascript:void">Samudra Mahal</a></li>
                   <li><a href="javascript:void">Ceejay House</a></li>
                   <li><a href="javascript:void">Shri Ram Heights</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Lodha World One</a></li>
                   <li><a href="javascript:void">Raheja Imperia</a></li>
                   <li><a href="javascript:void">Raheja Legend</a></li>
                   <li><a href="javascript:void">RNA Mirage</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Indiabulls Blu</a></li>
                   <li><a href="javascript:void">Raheja Artesia</a></li>
                   <li><a href="javascript:void">Lady Ratan Tower</a></li>
@@ -5993,25 +5987,25 @@
               </div>
               <div class="content" data-number="6">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Royal arcade</a></li>
                   <li><a href="javascript:void">Lodha Aqua</a></li>
                   <li><a href="javascript:void">Vishal Residency</a></li>
                   <li><a href="javascript:void">MICL Aaradhya High Park</a></li>       
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">SURYA DARSHAN</a></li>
                   <li><a href="javascript:void">Ramdev Park</a></li>
                   <li><a href="javascript:void">Tiara Hills</a></li>
                   <li><a href="javascript:void">Janki Apartment</a></li>   
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Man Opus</a></li>
                   <li><a href="javascript:void">Poonam Sagar Complex</a></li>
                   <li><a href="javascript:void">Sanghvi Ecocity</a></li>
                   <li><a href="javascript:void">Delta Vrindavan</a></li> 
                     </div>
-                  <div class="mega-menu">  
+                  <div class="mega-menu bg-transparent">  
                   <li><a href="javascript:void">Satyam Tower</a></li>
                   <li><a href="javascript:void">JK Iris</a></li>
                   <li><a href="javascript:void">Samruddhi Apartment</a></li>
@@ -6020,25 +6014,25 @@
               </div>
               <div class="content" data-number="7">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Maitri Park</a></li>
                   <li><a href="javascript:void">Sindhi Society</a></li>
                   <li><a href="javascript:void">Vardhan Heights</a></li>
                   <li><a href="javascript:void">Luv Kush Tower</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Diamond Garden</a></li>
                   <li><a href="javascript:void">Ruparel Orion</a></li>
                   <li><a href="javascript:void">Union Park</a></li>
                   <li><a href="javascript:void">Hubtown Seasons</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Navjeevan Society</a></li>
                   <li><a href="javascript:void">Veena Serenity</a></li>
                   <li><a href="javascript:void">Tridhaatu Morya</a></li>
                   <li><a href="javascript:void">Godrej RKS</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Altavista Chembur</a></li>
                   <li><a href="javascript:void">Blue Bell Apartment</a></li>
                   <li><a href="javascript:void">Crystal Armus</a></li>
@@ -6048,25 +6042,25 @@
               </div>
               <div class="content" data-number="8">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Asshna Seabliss</a></li>
                   <li><a href="javascript:void">Ruparel Panache</a></li>
                   <li><a href="javascript:void">Darshan Promesa Midtown</a></li>
                   <li><a href="javascript:void">Swastik Divine</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Leo Eminence</a></li>
                   <li><a href="javascript:void">Shilpriya Silicon Heritage</a></li>
                   <li><a href="javascript:void">Shree Sai Residential Park</a></li>
                   <li><a href="javascript:void">Codename Highway Touch</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Lodha Mahalakshmi Tower 4</a></li>
                   <li><a href="javascript:void">Upturn Atmiya Centria</a></li>
                   <li><a href="javascript:void">Aaradhya Parkwood</a></li>
                   <li><a href="javascript:void">Puneet Brahmand</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Maverick Devpuri</a></li>
                   <li><a href="javascript:void">Urban Grandeur</a></li>
                   <li><a href="javascript:void">Kinjal Complex II</a></li>
@@ -6110,7 +6104,7 @@
             <div class="contentSection2">
               <div class="content" data-number="1">
                 <ul class="four-grid-template-column con-ul">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Sumadhura Eden Garden</a></li>
                   <li><a href="javascript:void">Prestige Lake Ridge</a></li>
                   <li><a href="javascript:void">Brigade Lakefront</a></li>
@@ -6118,7 +6112,7 @@
                   <li><a href="javascript:void">Adarsh Palm Retreat</a></li>
                   <li><a href="javascript:void">Prestige Golfshire</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Sobha Royal Pavilion</a></li>
                   <li><a href="javascript:void">Prestige Ferns Residency</a></li>
                   <li><a href="javascript:void">Bhartiya City Nikoo Homes</a></li>
@@ -6126,7 +6120,7 @@
                   <li><a href="javascript:void">Godrej Splendour</a></li>
                   <li><a href="javascript:void">SNN Clermont</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">SNN Raj Serenity</a></li>
                   <li><a href="javascript:void">Godrej Ananda</a></li>
                   <li><a href="javascript:void">TATA Promont</a></li>
@@ -6134,7 +6128,7 @@
                   <li><a href="javascript:void">Sobha Windsor</a></li>
                   <li><a href="javascript:void">Prestige Jindal City</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Purva Palm Beach</a></li>
                   <li><a href="javascript:void">Adarsh Palm Retreat</a></li>
                   <li><a href="javascript:void">SNN Raj Etternia</a></li>
@@ -6146,7 +6140,7 @@
               </div>
               <div class="content" data-number="2">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Runwal Forests</a></li>
                   <li><a href="javascript:void">Nahar Amrit Shakti</a></li>
                   <li><a href="javascript:void">Bhakti Park</a></li>
@@ -6154,7 +6148,7 @@
                   <li><a href="javascript:void">Omkar 1973</a></li>
                   <li><a href="javascript:void">Maitri Park</a></li>
                 </div>
-                <div class="mega-menu"> 
+                <div class="mega-menu bg-transparent"> 
                   <li><a href="javascript:void">Palais Royale</a></li>
                   <li><a href="javascript:void">Lodha World Towers</a></li>
                   <li><a href="javascript:void">Ave Maria</a></li>
@@ -6162,7 +6156,7 @@
                   <li><a href="javascript:void">Sea Bird</a></li>
                   <li><a href="javascript:void">Lodha Altamount</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">One Avighna Park</a></li>
                   <li><a href="javascript:void">Hiranandani Gardens</a></li>
                   <li><a href="javascript:void">4th Avenue</a></li>
@@ -6170,7 +6164,7 @@
                   <li><a href="javascript:void">Rustomjee Paramount</a></li>
                   <li><a href="javascript:void">Imperial Heights</a></li>
                     </div>
-                  <div class="mega-menu"> 
+                  <div class="mega-menu bg-transparent"> 
                   <li><a href="javascript:void">Nathani Heights</a></li>
                   <li><a href="javascript:void">Ekta Nagar</a></li>
                   <li><a href="javascript:void">Sunteck Naigaon</a></li>
@@ -6182,7 +6176,7 @@
               </div>
               <div class="content" data-number="3">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Xrbia Hinjewadi</a></li>
                   <li><a href="javascript:void">Nyati Elysia</a></li>
                   <li><a href="javascript:void">Windermere</a></li>
@@ -6190,7 +6184,7 @@
                   <li><a href="javascript:void">Zinnia Elegans</a></li>
                   <li><a href="javascript:void">Rohan Abhilasha</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Spring Meadows</a></li>
                   <li><a href="javascript:void">Gagan Vihar</a></li>
                   <li><a href="javascript:void">Technopolis</a></li>
@@ -6198,7 +6192,7 @@
                   <li><a href="javascript:void">Dream Homes</a></li>
                   <li><a href="javascript:void">Panchshil Towers</a></li>    
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Spine City Mall</a></li>
                   <li><a href="javascript:void">Blue Ridge</a></li>
                   <li><a href="javascript:void">Rose Valley</a></li>
@@ -6206,7 +6200,7 @@
                   <li><a href="javascript:void">Pride World City</a></li>
                   <li><a href="javascript:void">Kolte Patil Life Republic</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">VTP Blue Waters</a></li>
                   <li><a href="javascript:void">Vaarivana</a></li>
                   <li><a href="javascript:void">SP Infocity</a></li>
@@ -6218,7 +6212,7 @@
               </div>
               <div class="content" data-number="4">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Mantri Celestia</a></li>
                   <li><a href="javascript:void">Sumadhura Acropolis</a></li>
                   <li><a href="javascript:void">My Home Jewel</a></li>
@@ -6226,7 +6220,7 @@
                   <li><a href="javascript:void">Rainbow Vistas</a></li>
                   <li><a href="javascript:void">Rajapushpa Provincia</a></li>            
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Jal Vayu Vihar</a></li>
                   <li><a href="javascript:void">SMR Vinay Iconia</a></li>
                   <li><a href="javascript:void">Vessella Meadows</a></li>
@@ -6234,7 +6228,7 @@
                   <li><a href="javascript:void">Prestige High Fields</a></li>
                   <li><a href="javascript:void">PBEL City</a></li>    
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Aliens Space Station</a></li>
                   <li><a href="javascript:void">My Home Krishe</a></li>
                   <li><a href="javascript:void">Vaishnavi Oasis</a></li>
@@ -6242,7 +6236,7 @@
                   <li><a href="javascript:void">My Home Vihanga</a></li>
                   <li><a href="javascript:void">Aparna Serene Park</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Vasavi Urban</a></li>
                   <li><a href="javascript:void">Rajapushpa Atria</a></li>
                   <li><a href="javascript:void">Ramky Towers</a></li>
@@ -6254,7 +6248,7 @@
               </div>
               <div class="content" data-number="5">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Mahagun Mywoods</a></li>
                   <li><a href="javascript:void">Godrej Woods</a></li>
                   <li><a href="javascript:void">Mahagun Moderne</a></li>
@@ -6262,7 +6256,7 @@
                   <li><a href="javascript:void">PAN Oasis</a></li>
                   <li><a href="javascript:void">Fusion Homes</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Gaur City 2</a></li>
                   <li><a href="javascript:void">Amrapali Sapphire</a></li>
                   <li><a href="javascript:void">Krishna Apartment</a></li>
@@ -6270,7 +6264,7 @@
                   <li><a href="javascript:void">Lotus Boulevard</a></li>
                   <li><a href="javascript:void">Golf City</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Cleo County</a></li>
                   <li><a href="javascript:void">Supertech Eco Village 1</a></li>
                   <li><a href="javascript:void">ACE Divino</a></li>
@@ -6278,7 +6272,7 @@
                   <li><a href="javascript:void">Jalvayu Towers</a></li>
                   <li><a href="javascript:void">ATS One Hamlet</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Panchsheel Greens</a></li>
                   <li><a href="javascript:void">Nirala Estate</a></li>
                   <li><a href="javascript:void">Supertech Capetown</a></li>
@@ -6290,7 +6284,7 @@
               </div>
               <div class="content" data-number="6">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Malibu Town</a></li>
                   <li><a href="javascript:void">M3M Marina</a></li>
                   <li><a href="javascript:void">IREO Skyon</a></li>
@@ -6298,7 +6292,7 @@
                   <li><a href="javascript:void">Parsvnath Exotica</a></li>
                   <li><a href="javascript:void">Tata Primanti</a></li>       
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Mahindra Luminare</a></li>
                   <li><a href="javascript:void">Ireo Victory Valley</a></li>
                   <li><a href="javascript:void">Emaar Palm Hills</a></li>
@@ -6306,7 +6300,7 @@
                   <li><a href="javascript:void">DLF Camellias</a></li>
                   <li><a href="javascript:void">Mapsko Mount Ville</a></li>    
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">M3M Woodshire</a></li>
                   <li><a href="javascript:void">Park View Apartment</a></li>
                   <li><a href="javascript:void">DLF Skycourt</a></li>
@@ -6314,7 +6308,7 @@
                   <li><a href="javascript:void">Birds Eye View</a></li>
                   <li><a href="javascript:void">DLF The Ultima</a></li>  
                     </div>
-                  <div class="mega-menu">  
+                  <div class="mega-menu bg-transparent">  
                   <li><a href="javascript:void">M3M Merlin</a></li>
                   <li><a href="javascript:void">Orchid Petals</a></li>
                   <li><a href="javascript:void">DLF Magnolias</a></li>
@@ -6326,7 +6320,7 @@
               </div>
               <div class="content" data-number="7">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Hiland Park</a></li>
                   <li><a href="javascript:void">Chitrakut Dham</a></li>
                   <li><a href="javascript:void">Flora Fountain</a></li>
@@ -6334,7 +6328,7 @@
                   <li><a href="javascript:void">Balaji Residency</a></li>
                   <li><a href="javascript:void">Windmere</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Godrej Prakriti</a></li>
                   <li><a href="javascript:void">The 42 Kolkata</a></li>
                   <li><a href="javascript:void">Uniworld City</a></li>
@@ -6342,7 +6336,7 @@
                   <li><a href="javascript:void">Urbana</a></li>
                   <li><a href="javascript:void">Embassy Boulevard</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">DTC Southern Heights</a></li>
                   <li><a href="javascript:void">South City</a></li>
                   <li><a href="javascript:void">Greenfield City</a></li>
@@ -6350,7 +6344,7 @@
                   <li><a href="javascript:void">Southwinds</a></li>
                   <li><a href="javascript:void">Siddha Galaxia</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Balaji Apartment</a></li>
                   <li><a href="javascript:void">Surya Heights</a></li>
                   <li><a href="javascript:void">Emami City</a></li>
@@ -6362,7 +6356,7 @@
               </div>
               <div class="content" data-number="8">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">House of Hiranandani</a></li>
                   <li><a href="javascript:void">DLF Gardencity</a></li>
                   <li><a href="javascript:void">Purva Windermere</a></li>
@@ -6370,7 +6364,7 @@
                   <li><a href="javascript:void">Alliance Orchid Springs</a></li>
                   <li><a href="javascript:void">Sunshine Apartments</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Sree Krishna</a></li>
                   <li><a href="javascript:void">Casagrand Zenith</a></li>
                   <li><a href="javascript:void">Brigade Xanadu</a></li>
@@ -6378,7 +6372,7 @@
                   <li><a href="javascript:void">VGN Stafford</a></li>
                   <li><a href="javascript:void">Sobha Winchester</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Prestige Bella Vista</a></li>
                   <li><a href="javascript:void">Casagrand First city</a></li>
                   <li><a href="javascript:void">Prestige Courtyards</a></li>
@@ -6386,7 +6380,7 @@
                   <li><a href="javascript:void">TVS Emerald Green Enclave</a></li>
                   <li><a href="javascript:void">Olympia Opaline</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Kosmo One</a></li>
                   <li><a href="javascript:void">Casagrand Athens</a></li>
                   <li><a href="javascript:void">Platinum City`</a></li>
@@ -6398,7 +6392,7 @@
               </div>
               <div class="content" data-number="9">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Lodha Amara</a></li>
                   <li><a href="javascript:void">Lodha Palava</a></li>
                   <li><a href="javascript:void">Lodha Palava City</a></li>
@@ -6406,7 +6400,7 @@
                   <li><a href="javascript:void">Lodha Sterling</a></li>
                   <li><a href="javascript:void">Marathon Nexworld</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Lodha Splendora</a></li>
                   <li><a href="javascript:void">Sai Residency</a></li>
                   <li><a href="javascript:void">Lodha Crown</a></li>
@@ -6414,7 +6408,7 @@
                   <li><a href="javascript:void">Vasant Valley</a></li>
                   <li><a href="javascript:void">Jasmine Tower</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Regency Anantam</a></li>
                   <li><a href="javascript:void">Rustomjee Urbania</a></li>
                   <li><a href="javascript:void">Green Woods</a></li>
@@ -6422,7 +6416,7 @@
                   <li><a href="javascript:void">Krishna Complex</a></li>
                   <li><a href="javascript:void">Kalpataru Paramount</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Runwal Gardens</a></li>
                   <li><a href="javascript:void">Bella Vista</a></li>
                   <li><a href="javascript:void">Runwal Eirene</a></li>
@@ -6433,7 +6427,7 @@
               </div>
               <div class="content" data-number="10">
                 <ul class="four-grid-template-column">
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Godrej Garden City</a></li>
                   <li><a href="javascript:void">Suryam Repose</a></li>
                   <li><a href="javascript:void">Suramya Abode</a></li>
@@ -6441,7 +6435,7 @@
                   <li><a href="javascript:void">Vinayak Residency</a></li>
                   <li><a href="javascript:void">Sun Solace</a></li>
                 </div>
-                <div class="mega-menu">
+                <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Adani Shantigram</a></li>
                   <li><a href="javascript:void">Saujanya</a></li>
                   <li><a href="javascript:void">Kalhaar Blues and Greens</a></li>
@@ -6449,7 +6443,7 @@
                   <li><a href="javascript:void">Swati Parkside</a></li>
                   <li><a href="javascript:void">Sentossa Greenland</a></li>
                   </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Ananta</a></li>
                   <li><a href="javascript:void">Iscon Platinum</a></li>
                   <li><a href="javascript:void">Glade One</a></li>
@@ -6457,7 +6451,7 @@
                   <li><a href="javascript:void">Suramya Lifespace</a></li>
                   <li><a href="javascript:void">Ganesh Genesis</a></li>
                     </div>
-                  <div class="mega-menu">
+                  <div class="mega-menu bg-transparent">
                   <li><a href="javascript:void">Super City</a></li>
                   <li><a href="javascript:void">Riverfront Flower Park</a></li>
                   <li><a href="javascript:void">Iscon Mega Mall</a></li>
@@ -6835,10 +6829,10 @@
                   <div class="modal-content p-3">                    
                     <div class="modal-header">
                       <div class="contact__owner__setup d-flex flex-column">
-                      <strong class="d-inline-block">Fill out this one - time contact form</strong>
-                      <p class="d-inline-block">We will share advertiser's details over email</p>
-                    </div>
-          <button type="button" class="close close-edit2" data-dismiss="modal" >&times;</button>
+                        <strong class="d-inline-block">Fill out this one-time contact form</strong>
+                        <p class="d-inline-block">We will share advertiser's details over email</p>
+                      </div>
+                      <button type="button" class="close close-edit2" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body text-left">
                       <form class="needs-validation" novalidate>
@@ -6846,13 +6840,11 @@
                           <label for="validationCustom01">Name</label>
                           <input type="text" name="" class="form-control control-majno managed-form-input" id="validationCustom01" placeholder="Write Your Good Name.." autocomplete="off" required>
                           <div class="valid-feedback">Looks good!</div>
-                      </div>
+                        </div>
                         <div class="form-group form-kohli">
                           <label for="validationCustom02">E-mail</label>
                           <input type="email" name="" class="form-control control-majno managed-form-input" id="validationCustom02" placeholder="Type Email Here.." autocomplete="off" required />
-                          <div class="valid-feedback">
-                              Looks good!
-                          </div>
+                          <div class="valid-feedback">Looks good!</div>
                         </div>
                         <div class="form-group form-kohli">
                           <label for="validationCustom03">Password</label>
@@ -6860,255 +6852,39 @@
                           <div class="invalid-feedback">Please provide a valid password.</div>
                         </div>
                         <div class="number__MObile__setting d-flex">              
-                        <div class="form-group form-kohli mr-lg-3">
+                          <div class="form-group form-kohli mr-lg-3">
                             <div class="custom__select">
-                            <select name="select__number" class="form-control control-majno managed-form-input">
-                              <option selected>IND +91</option>
-                              <option value="USA +1">USA +1</option>
-                              <option value="GBR +44">GBR +44</option>
-                              <option value="ARE +971">ARE +971</option>
-                              <option value="CAN +1">CAN +1</option>
-                              <option value="AUS +61">AUS +61</option>
-                              <option value="PAK +92">PAK +92</option>
-                              <option value="SAU +966">SAU +966</option>
-                              <option value="KWT +965">KWT +965</option>
-                              <option value="ZAF +27">ZAF +27</option>
-                              <option value="AFG +93">AFG +93</option>
-                              <option value="ALB +355">ALB +355</option>
-                              <option value="DZA +213">DZA +213</option>
-                              <option value="ASM +684">ASM +684</option>
-                              <option value="AND +376">AND +376</option>
-                              <option value="AGO +244">AGO +244</option>
-                              <option value="AIA +264">AIA +264</option>
-                              <option value="ATG +268">ATG +268</option>
-                              <option value="ARG +54">ARG +54</option>
-                              <option value="ARM +374">ARM +374</option>
-                              <option value="AZE +994">AZE +994</option>
-                              <option value="BHS +1242">BHS +1242</option>
-                              <option value="BHR +973">BHR +973</option>
-                              <option value="BGD +880">BGD +880</option>
-                              <option value="BRB +1246">BRB +1246</option>
-                              <option value="BLR +375">BLR +375</option>
-                              <option value="BEL +32">BEL +32</option>
-                              <option value="BLZ +501">BLZ +501</option>
-                              <option value="BMU +1441">BMU +1441</option>
-                              <option value="BTN +975">BTN +975</option>
-                              <option value="BOL +591">BOL +591</option>
-                              <option value="BIH +387">BIH +387</option>
-                              <option value="BWA +267">BWA +267</option>
-                              <option value="BRA +55">BRA +55</option>
-                              <option value="BRN +673">BRN +673</option>
-                              <option value="BGR +359">BGR +359</option>
-                              <option value="BFA +226">BFA +226</option>
-                              <option value="BDI +257">BDI +257</option>
-                              <option value="KHM +855">KHM +855</option>
-                              <option value="CMR +237">CMR +237</option>
-                              <option value="CPV +238">CPV +238</option>
-                              <option value="CYM +345">CYM +345</option>
-                              <option value="CAF +236">CAF +236</option>
-                              <option value="TCD +235">TCD +235</option>
-                              <option value="CHL +56">CHL +56</option>
-                              <option value="COL +57">COL +57</option>
-                              <option value="COM +269">COM +269</option>
-                              <option value="COD +243">COD +243</option>
-                              <option value="COG +242">COG +242</option>
-                              <option value="COK +682">COK +682</option>
-                              <option value="CRI +506">CRI +506</option>
-                              <option value="CIV +225">CIV +225</option>
-                              <option value="HRV +385">HRV +385</option>
-                              <option value="CUB +53">CUB +53</option>
-                              <option value="CYP +357">CYP +357</option>
-                              <option value="CZE +420">CZE +420</option>
-                              <option value="DNK +45">DNK +45</option>
-                              <option value="DJI +253">DJI +253</option>
-                              <option value="DMA +767">DMA +767</option>
-                              <option value="DOM +1">DOM +1</option>
-                              <option value="TLS +670">TLS +670</option>
-                              <option value="ECU +593">ECU +593</option>
-                              <option value="EGY +20">EGY +20</option>
-                              <option value="SLV +503">SLV +503</option>
-                              <option value="GNQ +240">GNQ +240</option>
-                              <option value="ERI +291">ERI +291</option>
-                              <option value="EST +372">EST +372</option>
-                              <option value="ETH +251">ETH +251</option>
-                              <option value="FLK +500">FLK +500</option>
-                              <option value="FRO +298">FRO +298</option>
-                              <option value="FJI +679">FJI +679</option>
-                              <option value="FIN +358">FIN +358</option>
-                              <option value="FRA +33">FRA +33</option>
-                              <option value="GUF +594">GUF +594</option>
-                              <option value="PYF +689">PYF +689</option>
-                              <option value="GAB +241">GAB +241</option>
-                              <option value="GMB +220">GMB +220</option>
-                              <option value="GEO +995">GEO +995</option>
-                              <option value="DEU +49">DEU +49</option>
-                              <option value="GHA +233">GHA +233</option>
-                              <option value="GIB +350">GIB +350</option>
-                              <option value="GRC +30">GRC +30</option>
-                              <option value="GRL +299">GRL +299</option>
-                              <option value="GRD +473">GRD +473</option>
-                              <option value="GLP +590">GLP +590</option>
-                              <option value="GUM +671">GUM +671</option>
-                              <option value="GTM +502">GTM +502</option>
-                              <option value="GIN +224">GIN +224</option>
-                              <option value="GNB +245">GNB +245</option>
-                              <option value="GUY +592">GUY +592</option>
-                              <option value="HTI +509">HTI +509</option>
-                              <option value="HND +504">HND +504</option>
-                              <option value="HKG +852">HKG +852</option>
-                              <option value="HUN +36">HUN +36</option>
-                              <option value="ISL +354">ISL +354</option>
-                              <option value="IDN +62">IDN +62</option>
-                              <option value="IRN +98">IRN +98</option>
-                              <option value="IRQ +964">IRQ +964</option>
-                              <option value="IRL +353">IRL +353</option>
-                              <option value="ISR +972">ISR +972</option>
-                              <option value="ITA +39">ITA +39</option>
-                              <option value="JAM +1">JAM +1</option>
-                              <option value="JPN +81">JPN +81</option>
-                              <option value="JOR +962">JOR +962</option>
-                              <option value="KAZ +7">KAZ +7</option>
-                              <option value="KEN +254">KEN +254</option>
-                              <option value="KIR +686">KIR +686</option>
-                              <option value="MDA +82">MDA +82</option>
-                              <option value="KGZ +996">KGZ +996</option>
-                              <option value="LAO +856">LAO +856</option>
-                              <option value="LVA +371">LVA +371</option>
-                              <option value="LBN +961">LBN +961</option>
-                              <option value="LSO +266">LSO +266</option>
-                              <option value="LBR +231">LBR +231</option>
-                              <option value="LBY +218">LBY +218</option>
-                              <option value="LIE +423">LIE +423</option>
-                              <option value="LTU +370">LTU +370</option>
-                              <option value="LUX +352">LUX +352</option>
-                              <option value="MAC +853">MAC +853</option>
-                              <option value="MKD +389">MKD +389</option>
-                              <option value="MDG +261">MDG +261</option>
-                              <option value="MWI +265">MWI +265</option>
-                              <option value="MYS +60">MYS +60</option>
-                              <option value="MDV +960">MDV +960</option>
-                              <option value="MLI +223">MLI +223</option>
-                              <option value="MLT +356">MLT +356</option>
-                              <option value="MTQ +596">MTQ +596</option>
-                              <option value="MRT +222">MRT +222</option>
-                              <option value="MUS +230">MUS +230</option>
-                              <option value="MYT +269">MYT +269</option>
-                              <option value="MEX +52">MEX +52</option>
-                              <option value="FSM +691">FSM +691</option>
-                              <option value="KOR +373">KOR +373</option>
-                              <option value="MCO +377">MCO +377</option>
-                              <option value="MNG +976">MNG +976</option>
-                              <option value="MSR +664">MSR +664</option>
-                              <option value="MAR +212">MAR +212</option>
-                              <option value="MMR +95">MMR +95</option>
-                              <option value="NAM +264">NAM +264</option>
-                              <option value="NRU +674">NRU +674</option>
-                              <option value="NPL +977">NPL +977</option>
-                              <option value="ANT +599">ANT +599</option>
-                              <option value="NLD +31">NLD +31</option>
-                              <option value="NCL +687">NCL +687</option>
-                              <option value="NZL +64">NZL +64</option>
-                              <option value="NIC +505">NIC +505</option>
-                              <option value="NER +227">NER +227</option>
-                              <option value="NGA +234">NGA +234</option>
-                              <option value="NIU +683">NIU +683</option>
-                              <option value="NFK +672">NFK +672</option>
-                              <option value="PRK +850">PRK +850</option>
-                              <option value="NOR +47">NOR +47</option>
-                              <option value="OMN +968">OMN +968</option>
-                              <option value="PAN +507">PAN +507</option>
-                              <option value="PNG +675">PNG +675</option>
-                              <option value="PRY +595">PRY +595</option>
-                              <option value="PER +51">PER +51</option>
-                              <option value="PHL +63">PHL +63</option>
-                              <option value="PCN +649">PCN +649</option>
-                              <option value="POL +48">POL +48</option>
-                              <option value="PRT +351">PRT +351</option>
-                              <option value="PRI +939">PRI +939</option>
-                              <option value="QAT +974">QAT +974</option>
-                              <option value="REU +262">REU +262</option>
-                              <option value="ROU +40">ROU +40</option>
-                              <option value="RUS +7">RUS +7</option>
-                              <option value="RWA +250">RWA +250</option>
-                              <option value="WSM +685">WSM +685</option>
-                              <option value="SMR +378">SMR +378</option>
-                              <option value="STP +239">STP +239</option>
-                              <option value="SEN +221">SEN +221</option>
-                              <option value="SCG +381">SCG +381</option>
-                              <option value="SYC +248">SYC +248</option>
-                              <option value="SLE +232">SLE +232</option>
-                              <option value="SGP +65">SGP +65</option>
-                              <option value="SVK +421">SVK +421</option>
-                              <option value="SVN +386">SVN +386</option>
-                              <option value="SLB +677">SLB +677</option>
-                              <option value="SOM +252">SOM +252</option>
-                              <option value="ESP +34">ESP +34</option>
-                              <option value="LKA +94">LKA +94</option>
-                              <option value="SHN +290">SHN +290</option>
-                              <option value="KNA +869">KNA +869</option>
-                              <option value="LCA +758">LCA +758</option>
-                              <option value="SPM +508">SPM +508</option>
-                              <option value="VCT +784">VCT +784</option>
-                              <option value="SDN +249">SDN +249</option>
-                              <option value="SUR +597">SUR +597</option>
-                              <option value="SWZ +268">SWZ +268</option>
-                              <option value="SWE +46">SWE +46</option>
-                              <option value="CHE +41">CHE +41</option>
-                              <option value="SYR +963">SYR +963</option>
-                              <option value="TWN +886">TWN +886</option>
-                              <option value="TJK +992">TJK +992</option>
-                              <option value="TZA +255">TZA +255</option>
-                              <option value="THA +66">THA +66</option>
-                              <option value="TGO +228">TGO +228</option>
-                              <option value="TKL +690">TKL +690</option>
-                              <option value="TON +676">TON +676</option>
-                              <option value="TTO +868">TTO +868</option>
-                              <option value="TUN +216">TUN +216</option>
-                              <option value="TUR +90">TUR +90</option>
-                              <option value="TKM +993">TKM +993</option>
-                              <option value="TCA +649">TCA +649</option>
-                              <option value="TUV +688">TUV +688</option>
-                              <option value="UGA +256">UGA +256</option>
-                              <option value="UKR +380">UKR +380</option>
-                              <option value="URY +598">URY +598</option>
-                              <option value="UZB +998">UZB +998</option>
-                              <option value="VUT +678">VUT +678</option>
-                              <option value="VEN +58">VEN +58</option>
-                              <option value="VNM +84">VNM +84</option>
-                              <option value="VGB +284">VGB +284</option>
-                              <option value="VIR +340">VIR +340</option>
-                              <option value="WLF +681">WLF +681</option>
-                              <option value="YEM +967">YEM +967</option>
-                              <option value="YUG +381">YUG +381</option>
-                              <option value="RNR +260">RNR +260</option>
-                              <option value="ZWE +263">ZWE +263</option>
-                            </select>
+                              <select name="select__number" class="form-control control-majno managed-form-input">
+                                <!-- Options for country codes -->
+                              </select>
                             </div>
+                          </div>
+                          <div class="form-group form-kohli w-100">
+                            <input type="number" maxlength="10" name="quantity" class="form-control control-majno" id="quantity" placeholder="Mobile Number.." autocomplete="off">
+                          </div>
                         </div>
-                        <div class="form-group form-kohli w-100">
-                          <input type="number" maxlength="10" name="quantity" class="form-control control-majno" id="quantity"placeholder="Mobile Number.." autocomplete="off">
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label anchor-tag-form" for="invalidCheck">
+                              <p>
+                                I Agree to SmartDeal <a href="javascript:void" class="pl-lg-1">Terms & Conditions</a>
+                              </p>
+                            </label>
+                            <div class="invalid-feedback">
+                              You must agree before submitting.
+                            </div>
+                          </div>
                         </div>
-                        </div>
-                           <div class="form-group ">
-                <div class="form-check">
-                  <input class="form-check-input " type="checkbox" value="" id="invalidCheck" required>
-                  <label class="form-check-label anchor-tag-form" for="invalidCheck">
-                    <p>
-                    I Agree to SmartDeal<a href="javascript:void" class="pl-lg-1">Terms & Conditions</a></p>
-                  </label>
-                  <div class="invalid-feedback ">
-                    You must agree before submitting.
-                  </div>
-                </div>
-              </div>
-                        </form>   
-                       </div>
+                      </form>   
+                    </div>
                     <div class="modal-footer justify-content-center modal-span">
-                      <button class="btn button2 btn-sm btn-danger" data-dismiss="modal" type="contact owner">contact owner</button>
+                      <button class="btn button2 btn-sm btn-danger" data-dismiss="modal" type="contact owner">Contact Owner</button>
                     </div>
                   </div>
                 </div>
               </div>
+              
 
               <!-- ********modal-kalpataru trigger******************* -->
               <div class="modal fade" id="mymodal4">
@@ -7865,14 +7641,5 @@
 </script>
 </html>
 
-<!-- 
-<video autoplay muted loop playsinline class="back-video" poster="img/banner/dubai__proj.jpg">
-  <source src="img/banner/dubai__proj.mp4" type="video/mp4">
-  <source src="img/banner/dubai__proj.webm" type="video/webm">
- </video> -->
 
- <!-- <video autoplay muted loop playsinline class="banner__video" poster="img/banner/dubai__proj.jpg">
-  <source src="img/banner/dubai__proj.mp4" type="video/mp4" class="video__length">
-  <source src="img/banner/dubai__proj.webm" type="video/webm" class="video__length">
-</video> -->
- 
+

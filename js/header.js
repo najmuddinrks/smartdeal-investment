@@ -25,12 +25,16 @@ $('.main__div h4').click(function(e){
 $('.font_adjust').click(function(e) {
 	e.preventDefault();
 	$(this).closest('.mega__sub').removeClass('is-active');
+  // $("#signup").removeClass("d-none");
+  
 });
 
 // Trigger sub menu
 $('.mega__link').click(function(e) {
   e.preventDefault();
   $(this).siblings().addClass('is-active');
+  //  $("#signup").addClass("d-none");
+  // $(this).closest('#signup').:not(:disabled):not(.disabled).toggleClass('d-block d-none');
 });
 
 
