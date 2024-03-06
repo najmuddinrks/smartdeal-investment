@@ -1652,6 +1652,12 @@ font-size: var(--font-size16);
 .line-height{
     line-height: 1;
 }
+.foont8{
+    font-size: var(--font-size8) !important;
+}
+.foont10{
+    font-size: var(--font-size10) !important;
+}
 .foont12{
     font-size:var(--font-size12) !important;
 }

@@ -212,6 +212,28 @@ $(window).scroll(function() {
   });
 
 // ************openNewPage***************
+  // function openNewPage() {
+  //   window.location.href = 'Assets/resp__input__search_filter/newpopup.html';
+  // }
   function openNewPage() {
-    window.location.href = 'Assets/resp__input__search_filter/newpopup.html';
+    window.location.href = 'newpopup.html';
   }
+
+// ************change Input Placeholder Text***************
+$(document).ready(function() {
+  function updatePlaceholder() {
+      if ($(window).width() <= 576) {
+          $("#inputBox__field").attr("placeholder", "Search by City or Project");
+      } else {
+          $("#inputBox__field").attr("placeholder", "Search by City Locality and Commercial and Residential Projects");
+      }
+  }
+
+  // Initial call to set the correct placeholder on page load
+  updatePlaceholder();
+
+  // Call the function whenever the window is resized
+  $(window).resize(function() {
+      updatePlaceholder();
+  });
+});

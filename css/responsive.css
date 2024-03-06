@@ -1001,7 +1001,7 @@ main{
         font-size: var(--font-size20);
     }
     .h2-set{
-        font-size: var(--font-size24);
+        font-size: var(--font-siz18) !important;
      }
       .button2{
         font-size: var(--font-size13);
@@ -1013,7 +1013,7 @@ main{
     }
     .mega-menu{
         overflow-y: scroll;
-        height: 101vh;
+        height: 102vh;
     }
     .bottomHead .megastar{
         max-width: 250px;
@@ -1120,10 +1120,101 @@ main{
     max-width: 120px !important;
 }
 .main__banner__sect__resp__input__field__search__box {
-    top: 77%;
+    top: 55%;
 }
 .overlay {
     min-height: 190%;
+}
+.mobile-nav-icon[name="close-outline"]{
+    padding-left: 215px !important;
+}
+.bottomline__search__input__box {
+    width: 300px;
+}
+.mad-input-box::placeholder {
+    display: none !important;
+}
+
+#inputBox__field::placeholder {
+    content: "Search by City or Project";
+    /* additional styling if needed */
+}
+.main__banner__sect__resp__input__field__search__box h2{
+    font-size: var(--font-size18);
+}
+.font-predict{
+    left: 22px;
+    top: 46%;
+}
+.input__search__circle{
+    top: -42%;
+    left: 90%;
+}
+.main__banner__sect__resp__input__field__search__box h2{
+    font-size: var(--font-size16);
+    font-weight: 600;
+}
+.another__packages{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+/* .resp__search__anchor__list ul{
+    display: inline-block !important;
+} */
+.resp__search__anchor__list ul li a{
+    font-size: var(--font-size8);
+    margin: 0px 3px;
+}
+select.form-control:not([size]):not([multiple]){
+    width: 70px !important;
+}
+select.custom__select__bar:not([size]):not([multiple]){
+    width: 110px !important;
+}
+.gradient h2{
+    font-size: var(--font-size14) !important;
+}
+.gradient h2 span{
+    font-size: var(--font-size16);
+}
+.card-footer ul li a{
+    font-size: var(--font-size10);
+}
+.fa-clock, .fa-key, .fa-city, .fa-location-dot{
+    font-size: var(--font-size30);
+}
+.Real__estate__properties__dubai .fig-img .fig-caption .property__bar__option h2{
+    font-size: var(--font-size24);
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.Real__estate__properties__dubai .fig-img .fig-caption .property__bar__option p{
+    font-size: var(--font-size10);
+    line-height: 1;
+}
+.property p {
+    font-size: var(--font-size14);
+}
+.explore__properties .container .wrapper .explore span{
+    font-size: var(--font-size30);
+}
+.explore__properties .container .wrapper .explore h2{
+    font-size: var(--font-size20);
+}
+.jumbo .container .wrapper .jumbo__box .jumbo__box__left h2{
+    font-size: var(--font-size21);
+}
+.social__link__available {
+    font-size: var(--font-size24) !important;
+    padding-top: 14px;
+}
+.bottom-footer .container .wrapper ul{
+    justify-content: center;
+}
+.width__600 {
+    width: 300px;
+    margin: 10px 0px;
 }
 
 
@@ -1296,22 +1387,35 @@ main{
         width: 188px;
     }
     .main__banner__sect__resp__input__field__search__box {
-        top: 103%;
+        top: 50%;
     }
     .input__search__circle {
         top: -37%;
         left: 92%;
     }
     .font-predict {
-        top: 68%;
+        top: 36%;
         left: 6%;
     }
     .resp__search__anchor__list ul li a{
         margin: 0px 4px;
-        font-size: var(--font-size8);
+        font-size: var(--font-size7);
+    }
+    .resp__search__anchor__list ul {
+        margin-bottom: 0px !important;
     }
     .main__banner__sect__resp__input__field__search__box h2{
-        font-size: var(--font-size14);
+        font-size: var(--font-size13);
+        font-weight: normal;
+    }
+    .overlay2{
+        height: 104%;
+    }
+    select.custom__select__bar:not([size]):not([multiple]){
+        width: 100px !important;
+    }
+    .width__600 {
+        width: 200px;
     }
     
 

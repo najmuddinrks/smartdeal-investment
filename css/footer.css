@@ -248,15 +248,22 @@
     .main-footer .container .wrapper .footer-right-section .prop-india ul li span a,
     .main-footer .container .wrapper .footer-left-section .more-network .li-adjust li a,
     .main-footer .container .wrapper .footer-left-section p{
-        font-size: var(--font-size18);
+        font-size: var(--font-size16);
     }
     .main-footer .container .wrapper .footer-left-section h3{
-        font-size: var(--font-size24);
+        font-size: var(--font-size20);
         padding-bottom: 4px;
     }
     
     .main-footer .container .wrapper .footer-left-section .social-media .social-media-links ul{
         gap: 0px 20px;
+    }
+    .main-footer .container .wrapper .footer-left-section .social-media .social-media-links{
+        width: 380px;
+    }
+    .social-media-links a{
+        width: 50px !important;
+        height: 50px !important;
     }
 }
 @media(max-width:360px){
